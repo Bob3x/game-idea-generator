@@ -1,0 +1,35 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gamepad body with gradient -->
+  <defs>
+    <linearGradient id="gamepadGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5865f2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4752c4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#faa61a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f7931e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main gamepad body -->
+  <path d="M8 12C8 8.68629 10.6863 6 14 6H18C21.3137 6 24 8.68629 24 12V16C24 19.3137 21.3137 22 18 22H14C10.6863 22 8 19.3137 8 16V12Z" fill="url(#gamepadGradient)"/>
+  
+  <!-- Left grip -->
+  <path d="M6 14C4.89543 14 4 14.8954 4 16V18C4 19.1046 4.89543 20 6 20C7.10457 20 8 19.1046 8 18V16C8 14.8954 7.10457 14 6 14Z" fill="url(#gamepadGradient)"/>
+  
+  <!-- Right grip -->
+  <path d="M26 14C27.1046 14 28 14.8954 28 16V18C28 19.1046 27.1046 20 26 20C24.8954 20 24 19.1046 24 18V16C24 14.8954 24.8954 14 26 14Z" fill="url(#gamepadGradient)"/>
+  
+  <!-- D-pad (left side) -->
+  <rect x="11" y="13" width="1.5" height="4" rx="0.75" fill="white"/>
+  <rect x="9.75" y="14.25" width="4" height="1.5" rx="0.75" fill="white"/>
+  
+  <!-- Action buttons (right side) -->
+  <circle cx="19" cy="13" r="1" fill="url(#accentGradient)"/>
+  <circle cx="21" cy="15" r="1" fill="url(#accentGradient)"/>
+  <circle cx="19" cy="17" r="1" fill="url(#accentGradient)"/>
+  <circle cx="17" cy="15" r="1" fill="url(#accentGradient)"/>
+  
+  <!-- Center highlight -->
+  <ellipse cx="16" cy="10" rx="2" ry="1" fill="white" opacity="0.3"/>
+</svg>
